@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="body">
+        <h1>COLLEGE EXAM REGISTRATION PORTAL</h1>
+        <div class="form">
+            <div class="box">
+                <img src="./school-solid.svg" alt="">
+                <form>
+                    <input type="text" placeholder="NAME">
+                    <input type="number" placeholder="REGISTER NUMBER">
+                    <input type="email" placeholder="MAIL" id="mail">
+                    <input type="number" placeholder="PHONE NUMBER">
+                    <input type="text" placeholder="SUBJECT NAME">
+                    <input type="text" placeholder="SUBJECT CODE">
+                    <input type="submit" class="btn" onclick="res()" value="Register">
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+    <script>
+        function res() {
+            alert("You'r Exam seat has been confrimed futher details will send it to the mail "+document.getElementById('mail').value);
+        }
+    </script>
+</body>
+
+</html>
